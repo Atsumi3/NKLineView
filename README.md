@@ -2,9 +2,26 @@ NKLineView
 ===========
 
 NKLineView is using swift.
-
 ![Animation](https://raw.githubusercontent.com/Atsumi3/NKLineView/master/ScreenShots/anim.gif)
+---------
+### How to use NKLineView
+```swift
+let lineView = NKLineView(view1: view1, view2: view2);
+lineView.addSubview(self.nkLineView!);
 
+// if NeedLineUpdate
+lineView.update();
+
+/// setting
+// lineColor (UIColor)  default: UIColor.blueColor()
+lineView.setStrokeColor(UIColor.blackColor());
+
+// lineWidth (CGFloat)  defau;t: 12
+lineView.setStrokeWidth(2);
+
+// zPosition (CGFloat)  default: -2
+lineView.setZPosition(10);
+```
 ### LICENSE
 ---------
 
