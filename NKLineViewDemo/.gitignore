@@ -1,0 +1,12 @@
+*.xcodeproj/*
+*.xcworkspace/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/default.*
+!**/*.xcodeproj/default.*
+!*.xcworkspace/contents.xcworkspacedata
+
+Pods
+Podfile.lock
+.DS_Store
+build/
+.idea

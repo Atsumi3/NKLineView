@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NKLineViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bDr-V9-dRo">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.92659395970000002" blue="0.27472929400000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bDr-V9-dRo" secondAttribute="height" multiplier="1:1" id="2tp-VV-9Yb"/>
+                                    <constraint firstAttribute="width" constant="100" id="e4I-JN-dk5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VbC-me-Qy9">
+                                <rect key="frame" x="430" y="450" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.55294117649999996" green="0.56078431370000004" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="XT5-am-eSs"/>
+                                    <constraint firstAttribute="width" secondItem="VbC-me-Qy9" secondAttribute="height" multiplier="1:1" id="xEc-Vo-lcZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bDr-V9-dRo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5Af-Wv-KBU"/>
+                            <constraint firstItem="bDr-V9-dRo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="de6-0x-Q9t"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VbC-me-Qy9" secondAttribute="trailing" constant="50" id="iet-xk-ibU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VbC-me-Qy9" secondAttribute="bottom" constant="50" id="v87-fg-Nbf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="view1" destination="bDr-V9-dRo" id="bOO-6d-MnD"/>
+                        <outlet property="view2" destination="VbC-me-Qy9" id="BkB-ww-ZNf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
