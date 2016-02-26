@@ -23,7 +23,7 @@
 		F08188B71C802AF4000BF369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F08188BA1C802AF4000BF369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F08188BC1C802AF4000BF369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F08188C31C802BDA000BF369 /* NKLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKLineView.swift; path = NKLineViewDemo/NKLineView.swift; sourceTree = SOURCE_ROOT; };
+		F08188C31C802BDA000BF369 /* NKLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKLineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			isa = PBXGroup;
 			children = (
 				F08188B01C802AF4000BF369 /* AppDelegate.swift */,
-				F08188B21C802AF4000BF369 /* ViewController.swift */,
-				F08188B41C802AF4000BF369 /* Main.storyboard */,
 				F08188B71C802AF4000BF369 /* Assets.xcassets */,
-				F08188B91C802AF4000BF369 /* LaunchScreen.storyboard */,
 				F08188BC1C802AF4000BF369 /* Info.plist */,
+				F08188B91C802AF4000BF369 /* LaunchScreen.storyboard */,
+				F08188B41C802AF4000BF369 /* Main.storyboard */,
+				F08188B21C802AF4000BF369 /* ViewController.swift */,
 			);
 			path = NKLineViewDemo;
 			sourceTree = "<group>";
@@ -161,6 +161,7 @@
 				F08188B51C802AF4000BF369 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		F08188B91C802AF4000BF369 /* LaunchScreen.storyboard */ = {
@@ -169,6 +170,7 @@
 				F08188BA1C802AF4000BF369 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +300,7 @@
 				F08188C11C802AF4000BF369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
