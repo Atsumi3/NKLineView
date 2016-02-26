@@ -2,6 +2,8 @@ NKLineView
 ===========
 
 NKLineView is using swift.
+
+Example of use.
 ![Animation](https://raw.githubusercontent.com/Atsumi3/NKLineView/master/ScreenShots/anim.gif)
 ---------
 ### How to use NKLineView
