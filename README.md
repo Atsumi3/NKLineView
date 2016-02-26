@@ -3,7 +3,7 @@ NKLineView
 
 NKLineView is using swift.
 
-![Animation](https://raw.githubusercontent.com/Atsumi3/NKLineView/master/ScreenShots/anim.git)
+![Animation](https://raw.githubusercontent.com/Atsumi3/NKLineView/master/ScreenShots/anim.gif)
 
 ### LICENSE
 ---------
